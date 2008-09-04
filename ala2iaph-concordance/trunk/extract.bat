@@ -1,0 +1,1 @@
+call saxon -t -w1 -o ./xml/ala-iaph-conc.xml ./xml/colpub.xml ./xslt/extract-concordance.xsl
