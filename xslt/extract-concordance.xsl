@@ -6,6 +6,7 @@
 <xsl:template match="xquery">
     <list>
         <xsl:for-each select="//bibl[@n='ALA' or @n='ala2004']">
+            <xsl:sort select=".//biblScope[1]"/>
             <item>
                 <ref n="ala2004">
                     <xsl:text>eAla</xsl:text><xsl:choose>
